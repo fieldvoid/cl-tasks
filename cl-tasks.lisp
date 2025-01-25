@@ -1,5 +1,5 @@
 (defclass task ()
-  ((expr-array :initargs :expr-array)
+  ((expr-array :initarg :expr-array)
    (index)
    (mailbox)))
 
